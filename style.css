@@ -13,9 +13,9 @@ ul {
     margin: 0;
 }
 
-li {
+/* li {
     list-style: none;
-}
+} */
 
 h1,
 h2,
@@ -26,7 +26,7 @@ h6,
 p {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.1;
+    line-height: 1.5;
 }
 
 img {
@@ -39,12 +39,15 @@ body {
     color: black;
     background-color: white;
     font-family: Roboto;
+    font-size: 16px;
     margin: 0;
 }
 
 .container {
     width: 100%;
-    padding: 25px 15px 25px 15px;
+    /* padding-left: 45px;
+    padding-right: 45px; */
+    padding: 15px 200px 15px 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,6 +61,50 @@ table {
 th,
 td {
     border: 1px solid black;
-    padding: 10px;
-    /* vertical-align: top; */
+    /* padding-top: 10px;
+    padding-left: 55px; */
+    padding: 10px 10px 10px 55px;
+}
+
+.section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 35px;
+
+    font-size: 30px;
+}
+
+.sub-text {
+    font-weight: 700;
+}
+
+.sub-title {
+    margin-bottom: 35px;
+
+    font-size: 25px;
+}
+
+.sub-title_position {
+    text-align: center;
+}
+
+.text-bold {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* .num-list-item {
+    list-style-type: disc;
+} */
+
+.img {
+    float: left;
+}
+
+.text {
+    margin-bottom: 20px;
 }
